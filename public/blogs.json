@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/V3mJH8F/images-1.jpg",
+        "title": "The Shadow Realm",
+        "author": "Mashrafe Mortaza",
+        "author_img": "https://i.ibb.co.com/V3mJH8F/images-1.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 4.5
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/J3wCLyx/images-8.jpg",
+        "title": "Whispers of the Past",
+        "author": "Mostafijur Rahman",
+        "author_img": "https://i.ibb.co.com/J3wCLyx/images-8.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 4.0
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/Gkvxqby/images-5.jpg",
+        "title": "Secrets of the Ocean",
+        "author": "Soumya Sarkar",
+        "author_img": "https://i.ibb.co.com/Gkvxqby/images-5.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 4.8
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/gF88fhd/images.jpg",
+        "title": "The Time Traveler",
+        "author": "Shakib All Hasan",
+        "author_img": "https://i.ibb.co.com/gF88fhd/images.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 4.2
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co.com/GnQZSkH/images-6.jpg",
+        "title": "Dreams Beyond the Stars",
+        "author": "Tamim Iqbal",
+        "author_img": "https://i.ibb.co.com/GnQZSkH/images-6.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 3.9
+    },
+    {
+        "id": 6,
+        "cover": "https://i.ibb.co.com/100hj8P/download.jpg",
+        "title": "The Enchanted Forest",
+        "author": "MS Dhoni",
+        "author_img": "https://i.ibb.co.com/100hj8P/download.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "India",
+        "Rating": 4.7
+    },
+    {
+        "id": 7,
+        "cover": "https://i.ibb.co.com/Mk25P1r/images-7.jpg",
+        "title": "Legends of the Forgotten",
+        "author": "Lation Das",
+        "author_img": "https://i.ibb.co.com/Mk25P1r/images-7.jpg",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "Bangladesh",
+        "Rating": 4.1
+    },
+    {
+        "id": 8,
+        "cover": "https://i.ibb.co.com/M90YGsf/6.png",
+        "title": "The Lost Kingdom",
+        "author": "Rohit Sharma",
+        "author_img": "https://i.ibb.co.com/M90YGsf/6.png",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "India",
+        "Rating": 4.3
+    },
+    {
+        "id": 9,
+        "cover": "https://i.ibb.co.com/Z2Np4Pp/2.png",
+        "title": "The Lost Kingdom",
+        "author": "Virat Kohli",
+        "author_img": "https://i.ibb.co.com/Z2Np4Pp/2.png",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "India",
+        "Rating": 4.6
+    },
+    {
+        "id": 10,
+        "cover": "https://i.ibb.co.com/7J7LVpV/190.png",
+        "title": "Echoes of Eternity",
+        "author": "Sanju Samson",
+        "author_img": "https://i.ibb.co.com/7J7LVpV/190.png",
+        "price": 1500000,
+        "Left_Hand_Bat": "",
+        "country": "India",
+        "Rating": 4.0
+    }
+]
