@@ -1,6 +1,7 @@
 import { RiDeleteBin5Line } from "react-icons/ri";
-const SelectedCard = ({ data }) => {
-  const { author, author_img } = data;
+import PropTypes from "prop-types";
+const SelectedCard = ({ data, handleDelete }) => {
+  const { author, author_img, id} = data;
 
   return (
     <div className="flex justify-between border mb-4 rounded-lg p-3">
@@ -15,11 +16,16 @@ const SelectedCard = ({ data }) => {
           <p>Left Hand bat{}</p>
         </div>
       </div>
-      <button className="text-2xl mr-4 text-red-500">
+      <button onClick={() => handleDelete(id)} className="text-2xl mr-4 text-red-500">
       <RiDeleteBin5Line />
       </button>
     </div>
   );
+};
+
+SelectedCard.propTypes = {
+  data: PropTypes.object.isRequired,
+  handleDelete: PropTypes.func.isRequired,
 };
 
 export default SelectedCard;

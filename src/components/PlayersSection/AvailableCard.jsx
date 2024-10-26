@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const AvailableCard = ({ data }) => {
+const AvailableCard = ({ data, handleSelect }) => {
   const {
     title,
     cover,
@@ -12,7 +12,7 @@ const AvailableCard = ({ data }) => {
   } = data;
 
   return (
-      <div className="border rounded-xl mb-5 p-5">
+    <div className="border rounded-xl mb-5 p-5">
       <img
         className="w-full h-80 rounded-xl object-center mb-5"
         src={cover}
@@ -43,8 +43,8 @@ const AvailableCard = ({ data }) => {
         </div>
         <div>
           <button
-            className="p-2 border rounded-lg"
-            onClick={() => alert("Button Clicked!")}
+            className="btn btn-outline border btn-success"
+            onClick={() => handleSelect(data)}
           >
             Choose Player
           </button>
@@ -56,6 +56,7 @@ const AvailableCard = ({ data }) => {
 
 AvailableCard.propTypes = {
   data: PropTypes.object.isRequired,
+  handleSelect: PropTypes.func.isRequired
 };
 
 export default AvailableCard;
